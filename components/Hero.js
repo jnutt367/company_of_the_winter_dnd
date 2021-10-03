@@ -12,7 +12,7 @@ const Hero = () => {
           objectFit="cover"
           className="absolute z-0"
         />
-        <div className="bg-indigo-900 bg-opacity-70 flex items-center h-full absolute w-full z-10">
+        <div className="bg-indigo-900 bg-opacity-40 flex items-center h-full absolute w-full z-10">
           <div className="px-10 max-w-xl my-10">
             <h2 className="bg-indigo-900 bg-opacity-30 font-serif text-2xl text-white font-semibold">The Forgotten Realms</h2>
             <p className="mt-2 text-indigo-100">

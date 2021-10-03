@@ -7,7 +7,7 @@ const Character = ({ character }) => {
     return (
         <Link href={`/characters/${character._id}`}>
         <div className="w-full max-w-sm p-4 mx-auto rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition">
-          <div className="flex items-end justify-end h-56 w-full bg-cover relative">
+          <div className="flex items-end justify-end h-screen w-full bg-contain relative">
             <Image
               src={character.image}
               alt={character.character_name}
