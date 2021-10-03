@@ -22,7 +22,7 @@ const Character = ({ character }) => {
           <div className="px-5 py-3">
             <h3 className="text-white uppercase">{character.character_name}</h3>
             <h3 className="text-white uppercase">{character.category}</h3>
-            <span className="text-white mt-2">{character.ability_scores}</span>
+            <span className="text-white mt-2">{character.attributes}</span>
           </div>
         </div>
       </Link>
