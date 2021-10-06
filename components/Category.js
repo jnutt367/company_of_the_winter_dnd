@@ -3,10 +3,12 @@ import React from 'react'
 const Category = ({ category, categoryCount }) => {
     return (
         <>
-        <h3 className="font-serif p-4 text-white text-2xl font-medium block mt-16">
+        <div className="bg-indigo-300 rounded-md">
+        <h3 className="font-serif p-4 text-black text-2xl font-medium block mt-16">
             {category}
         </h3>
-        <span className="mt-3 p-4 text-sm text-white">{categoryCount}</span>
+        <span className="mt-3 font-mono p-8 text-sm text-black">{categoryCount}</span>
+        </div>
         </>
         )
 }

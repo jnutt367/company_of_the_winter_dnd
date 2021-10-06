@@ -46,14 +46,14 @@ const Header = () => {
           <nav
             className={`${
               isMenuOpen ? "" : "hidden"
-            } sm:flex sm:justify-center sm:items-center mt-4`}
+            }  sm:flex sm:justify-center sm:items-center mt-4`}
           >
-            <div className="flex flex-col sm:flex-row">
+            <div className="font-mono	 flex flex-col sm:flex-row">
               <div className="mt-3 text-white hover:underline sm:mx-3 sm:mt-0">
                 <Link href="/">Home</Link>
               </div>
               <div className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0">
-                <Link href="/characters">Categories</Link>
+                <Link href="/characters">NPCs & PCs</Link>
               </div>
               <a
                 className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"

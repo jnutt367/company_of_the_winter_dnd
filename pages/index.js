@@ -36,7 +36,7 @@ export default function Home() {
      <Container>
       <Hero />
       <Category
-        category="Characters and Player Characters"
+        category="NPCs & Player Characters"
         categoryCount={`${characters.length} Characters`} />
         <Characters characters={characters} />
      </Container>
