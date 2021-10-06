@@ -52,26 +52,26 @@ const Header = () => {
               <div className="mt-3 text-white hover:underline sm:mx-3 sm:mt-0">
                 <Link href="/">Home</Link>
               </div>
-              <div className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0">
+              <div className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0">
                 <Link href="/characters">NPCs & PCs</Link>
               </div>
               <a
-                className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
+                className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
                 href="#"
               >
                 Story Line
               </a>
               <a
-                className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
-                href="#"
+                className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
+                href="https://inkarnate.com/maps/edit/5618206/"
               >
-                Forgotten Realms
+                Maps
               </a>
               <a
                 className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
-                href="#"
+                href="https://inkarnate.com/maps/edit/5618206/"
               >
-                WaterDeep
+                Angelica
               </a>
             </div>
           </nav>

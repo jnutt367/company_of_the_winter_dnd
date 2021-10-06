@@ -8,6 +8,7 @@ import Characters from '../components/Characters';
 import Character from '../components/Character';
 import Category from '../components/Category';
 import Pagination from '../components/Pagination';
+import Footer from '../components/Footer';
 export default function Home() {
     const [characters, setCharacters] = useState([]) 
 
@@ -29,7 +30,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 py-2">
       <Head>
-        <title>Create Next App</title>
+        <title>Company of the Winter RPG setup Center</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className="bg-black text-white w-full min-h-screen">
@@ -41,6 +42,7 @@ export default function Home() {
         categoryCount={`${characters.length} Characters`} />
         <Characters characters={characters} />
         <Pagination />
+        <Footer />
      </Container>
      </div> 
     </div>
