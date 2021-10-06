@@ -20,9 +20,9 @@ const Character = ({ character }) => {
             </button>
           </div>
           <div className="px-5 py-3">
-            <h3 className="text-white uppercase">{character.character_name}</h3>
-            <h3 className="text-white uppercase">{character.category}</h3>
-            <span className="text-white mt-2">{character.attributes}</span>
+            <h3 className="bg-indigo-900 bg-opacity-40 font-serif text-white uppercase">{character.character_name}</h3>
+            <h3 className="bg-indigo-900 bg-opacity-90 font-mono text-white uppercase">{character.category}</h3>
+            <span className="bg-indigo-900 bg-opacity-90 font-sans text-white mt-2">{character.attributes}</span>
           </div>
         </div>
       </Link>

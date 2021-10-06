@@ -7,6 +7,7 @@ import Hero from '../components/Hero';
 import Characters from '../components/Characters';
 import Character from '../components/Character';
 import Category from '../components/Category';
+import Pagination from '../components/Pagination';
 export default function Home() {
     const [characters, setCharacters] = useState([]) 
 
@@ -39,6 +40,7 @@ export default function Home() {
         category="NPCs & Player Characters"
         categoryCount={`${characters.length} Characters`} />
         <Characters characters={characters} />
+        <Pagination />
      </Container>
      </div> 
     </div>
