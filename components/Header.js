@@ -63,13 +63,13 @@ const Header = () => {
               </a>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
-                href="https://inkarnate.com/maps/edit/5618206/"
+                href="https://inkarnate.com/m/kO2Xr6--angelica-overview-landscape-map/"
               >
                 Maps
               </a>
               <a
                 className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
-                href="https://inkarnate.com/maps/edit/5618206/"
+                href="https://inkarnate.com/m/kO2Xr6--angelica-overview-landscape-map/"
               >
                 Angelica
               </a>

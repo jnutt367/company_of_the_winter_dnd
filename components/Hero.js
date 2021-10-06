@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="px-10 max-w-xl my-10">
             <h2 className="bg-indigo-900 bg-opacity-30 font-serif text-2xl text-white font-semibold">The Forgotten Realms</h2>
             <p className="bg-indigo-900 bg-opacity-50 mt-2 text-white">
-            A dark cloud of uncertainty envelops the land as the swarm of dragons seems to increase & circle like sharks of the sky over the land. <i className="font-mono text-green-100"> Your Company,</i> is voluntered to get to the bottom of what could be making these Dragons interested in devouring Dungril. 
+            A dark cloud of uncertainty envelops the land as the swarm of dragons seems to increase & circle like sharks of the sky over the land. <i className="font-mono text-green-100"> Your Company,</i> is voluntered to investigate what could be making Dragons interested in Angelica. 
             </p>
             <Link href={`/characters`}>
               <button className="font-serif flex items-center mt-4 px-3 py-2 bg-indigo-600 text-white text-sm uppercase font-medium rounded hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">
