@@ -1,14 +1,13 @@
 import Head from 'next/head';
 import { useState ,useEffect } from 'react';
 import * as Realm from 'realm-web';
-import Header from '../components/Header';
-import Container from "../components/Container";
-import Hero from '../components/Hero';
-import Characters from '../components/Characters';
-import Character from '../components/Character';
-import Category from '../components/Category';
-import Pagination from '../components/Pagination';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Container from "../../components/Container";
+import Characters from '../../components/Characters';
+import Character from '../../components/Character';
+import Category from '../../components/Category';
+import Pagination from '../../components/Pagination';
+import Footer from '../../components/Footer';
 export default function Home() {
     const [characters, setCharacters] = useState([]) 
 
@@ -36,9 +35,8 @@ export default function Home() {
     <div className="bg-black text-white w-full min-h-screen">
      <Header />
      <Container>
-      <Hero />
       <Category
-        category="NPCs & Player Characters"
+        category="All Characters"
         categoryCount={`${characters.length} Characters`} />
         <Characters characters={characters} />
         <Pagination />
