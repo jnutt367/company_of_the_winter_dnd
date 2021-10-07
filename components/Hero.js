@@ -4,9 +4,11 @@ import Link from "next/link";
 import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
 const Hero = () => {
     return (
+      
         <div className="h-96 max-w-5xl mx-auto rounded-md overflow-hidden bg-cover bg-center relative">
-        <Image
-          src="/images/company_winter.jpg"
+        
+         <Image
+          src="/images/Angelica-Overview-Landscape-Map.jpeg"
           alt="Hero Image"
           layout="fill"
           objectFit="cover"

@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Image from 'next/dist/client/image'
 const Category = ({ category, categoryCount }) => {
     return (
         <>
         <div className="bg-indigo-300 rounded-md">
+       
         <h3 className="font-serif p-4 text-black text-2xl font-medium block mt-16">
             {category}
         </h3>
