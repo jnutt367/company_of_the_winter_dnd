@@ -18,8 +18,8 @@ const Header = () => {
         <div className="container mx-auto px-6 py-3">
           <div className="flex text-green items-center justify-between">
             <Link href="/">
-              <div className="font-serif w-full text-green text-2xl font-semibold cursor-pointer">
-                Company of the Winter
+              <div className="font-serif w-full text-red-600 text-2xl font-semibold cursor-pointer">
+                D&D Character Creation/ Selection
               </div>
             </Link>
             <div className="flex items-center justify-end w-full">
@@ -53,25 +53,25 @@ const Header = () => {
                 <Link href="/">Home</Link>
               </div>
               <div className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0">
-                <Link href="/characters">NPCs & PCs</Link>
+                <Link href="/characters">Existing Characters</Link>
               </div>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
                 href="#"
               >
-                Story Line
+                New Characters
               </a>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
                 href="https://inkarnate.com/m/kO2Xr6--angelica-overview-landscape-map/"
               >
-                Maps
+                Adventures
               </a>
               <a
                 className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
-                href="https://inkarnate.com/m/kO2Xr6--angelica-overview-landscape-map/"
+                href="#yetToBeDetermined"
               >
-                Angelica
+                Suggestions
               </a>
             </div>
           </nav>

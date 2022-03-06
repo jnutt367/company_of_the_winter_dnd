@@ -12,17 +12,17 @@ const Character = ({ character }) => {
               src={character.image}
               alt={character.character_name}
               layout="fill"
-              objectFit="cover"
-              className="absolute z-0"
+              objectFit="scale-down"
+              className="absolute z-0 rounded"
             />
-            <button className="absolute z-10 p-2 rounded-full bg-indigo-600 text-white mx-5 -mb-4 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">
+            <button className="absolute z-10 p-2 rounded-full bg-black text-white mx-5 -mb-4 hover:bg-red-600 focus:outline-none focus:bg-indigo-500">
               <UserIcon className="w-5 h-5" />
             </button>
           </div>
           <div className="px-5 py-3">
-            <h3 className="bg-indigo-900 bg-opacity-40 font-serif text-white uppercase">{character.character_name}</h3>
-            <h3 className="bg-indigo-900 bg-opacity-90 font-mono text-white uppercase">{character.category}</h3>
-            <span className="bg-indigo-900 bg-opacity-90 font-sans text-white mt-2">{character.attributes}</span>
+            <h3 className="bg-red-900 bg-opacity-40 font-serif text-white uppercase">{character.character_name}</h3>
+            <h3 className="bg-red-900 bg-opacity-90 font-mono text-white uppercase">{character.category}</h3>
+            <span className="bg-red-900 bg-opacity-90 font-sans text-white mt-2">{character.attributes}</span>
           </div>
         </div>
       </Link>

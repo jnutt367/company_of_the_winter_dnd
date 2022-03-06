@@ -14,7 +14,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
       >
         <div className="flex items-center justify-between">
           <h3 className="text-2xl font-medium text-white">Your Group</h3>
-          <button className="text-indigo-600 focus:outline-none">
+          <button className="text-red-600 focus:outline-none">
             <XIcon
               onClick={() => setIsGroupOpen(!isGroupOpen)}
               className="h-5 w-5"
@@ -104,13 +104,13 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               type="text"
               placeholder="Character Name"
             />
-            <button className="ml-3 flex items-center px-3 py-2 bg-indigo-600 text-white text-sm uppercase font-medium rounded hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">
-              <span>Search</span>
+            <button className="ml-3 flex items-center px-3 py-2 bg-red-600 text-white text-sm uppercase font-medium rounded hover:bg-gray-500 focus:outline-none focus:bg-green-500">
+              <span>Existing Characters</span>
             </button>
           </form>
         </div>
-        <a className="flex items-center justify-center mt-4 px-3 py-2 bg-indigo-600 text-white text-sm uppercase font-medium rounded hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500 cursor-pointer">
-          <span>See all Caharacters</span>
+        <a className="flex items-center justify-center mt-4 px-3 py-2 bg-red-600 text-white text-sm uppercase font-medium rounded hover:bg-gray-500 focus:outline-none focus:bg-green-500 cursor-pointer">
+          <span>All Characters</span>
           <ArrowNarrowRightIcon className="w-5 h-5" />
         </a>
       </div>

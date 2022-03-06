@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 py-2">
       <Head>
-        <title>Company of the Winter RPG setup Center</title>
+        <title>RPG Character Builder/ Selector</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className="bg-black text-white w-full min-h-screen">
@@ -38,7 +38,7 @@ export default function Home() {
      <Container>
       <Hero />
       <Category
-        category="NPCs & Player Characters"
+        category="Existing Characters"
         categoryCount={`${characters.length} Characters`} />
         <Characters characters={characters} />
         <Pagination />
