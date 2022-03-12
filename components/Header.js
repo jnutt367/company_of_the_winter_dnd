@@ -19,11 +19,11 @@ const Header = () => {
           <div className="flex text-green items-center justify-between">
             <Link href="/">
               <div className="font-serif w-full text-red-600 text-2xl font-semibold cursor-pointer">
-                D&D Character Creation/ Selection
+                RPG Character Creator & Selector
               </div>
             </Link>
             <div className="flex items-center justify-end w-full">
-              <button className="text-green focus:outline-none mx-4 sm:mx-0">
+              <button className="text-red-600 focus:outline-none mx-4 sm:mx-0">
                 <UserGroupIcon
                   onClick={() => setIsGroupOpen(!isGroupOpen)}
                   className="h-5 w-5"
@@ -34,7 +34,7 @@ const Header = () => {
                 <button
                   onClick={() => setIsMenuOpen(!isMenuOpen)}
                   type="button"
-                  className="text-aqua hover:text-indigo-500 focus:outline-none focus:text-gray-500"
+                  className="text-aqua hover:text-red-500 focus:outline-none focus:text-gray-500"
                   aria-label="toggle menu"
                 >
                   <MenuIcon className="h-5 w-5" />
@@ -53,13 +53,13 @@ const Header = () => {
                 <Link href="/">Home</Link>
               </div>
               <div className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0">
-                <Link href="/characters">Existing Characters</Link>
+                <Link href="/characters">Choose a Character</Link>
               </div>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
                 href="#"
               >
-                New Characters
+                Create a Character
               </a>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
@@ -71,7 +71,7 @@ const Header = () => {
                 className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
                 href="#yetToBeDetermined"
               >
-                Suggestions
+                
               </a>
             </div>
           </nav>

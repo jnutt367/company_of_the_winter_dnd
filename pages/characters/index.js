@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 py-2">
       <Head>
-        <title>RPG Character Builder/Selector</title>
+        <title>RPG Character Creator/Selector</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className="bg-black text-white w-full min-h-screen">

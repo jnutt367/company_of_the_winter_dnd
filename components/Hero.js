@@ -16,10 +16,9 @@ const Hero = () => {
         />
         <div className="bg-red-600 bg-opacity-40 flex items-center h-full absolute w-full z-10">
           <div className="px-10 max-w-xl my-10">
-            <h2 className="bg-slate-900 bg-opacity-30 font-serif text-2xl text-white font-semibold">Create & Alter Existing Characters</h2>
+            <h2 className="bg-slate-900 bg-opacity-30 font-serif text-2xl text-white font-semibold">Create New & Alter Existing Characters</h2>
             <p className="bg-red-900 bg-opacity-50 mt-2 text-white">
-            This is a great app for anyone wanting to make a new Character or pick one that I've already made for their D & D Campaign or RPG fantasy game.
-            Their are pre-defined fields and the ability to add new fields as you see fit. And all of the Character's data will be kept for you if you have authenticated yourself with a UserName & Password.
+             For use with D&D or other RPG Character Sheets & Images
              </p>
             <Link href={`/characters`}>
               <button className="font-serif flex items-center mt-4 px-3 py-2 bg-black text-white text-sm uppercase font-medium rounded hover:bg-red-500 focus:outline-none focus:bg-green-500">
