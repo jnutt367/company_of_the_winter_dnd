@@ -1,0 +1,24 @@
+    ({
+        character_name: 'Gis FeatherToe',
+        player_name: 'Brian Nutt',
+        ability_scores: [
+            ' Strength: 25 ',
+            ' Dexterity: 18 ',
+            ' Constitution: 16 ',
+            ' Intelligence: 15 ',
+            ' Wisdom: 15 ',
+            ' Charisma: 17'
+        ],
+        attributes: [
+            ' Lvl: 21 ',
+            '  Social Class: Lower ',
+            ' Race: Half-Elf ',
+            ' Homeland: Wintersaison ',
+            ' Player: Brian Nutt ',
+            ' Class: Figther/Thief ',
+            ' Alignment: Chaotic Neutral ',
+            ' AC: -3 '
+        ],
+        category: ' Fighter/Thief ',
+        image: '/images/gis.jpg'
+    })
