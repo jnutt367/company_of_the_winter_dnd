@@ -57,15 +57,15 @@ const Header = () => {
               </div>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
-                href="#"
+                href="https://roll-a-rama-random-encounters.vercel.app/"
               >
-                Create a Character
+                Roll for Character scores
               </a>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
                 href="https://inkarnate.com/m/kO2Xr6--angelica-overview-landscape-map/"
               >
-                Adventures
+                World Choices
               </a>
               <a
                 className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
