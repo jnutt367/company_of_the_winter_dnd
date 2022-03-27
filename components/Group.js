@@ -28,7 +28,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               src="/images/jason.jpg"
               height={130}
               width={80}
-              objectFit="cover"
+              objectFit="fill"
               className="rounded"
               alt="DnD Character"
             />
