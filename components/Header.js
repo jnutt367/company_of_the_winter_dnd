@@ -61,18 +61,20 @@ const Header = () => {
               >
                 Roll for Character scores
               </a>
+             
+              <a
+                className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
+                href="#weapons"
+              >
+                Choose Weapons
+              </a>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
                 href="https://inkarnate.com/m/kO2Xr6--angelica-overview-landscape-map/"
               >
                 World Choices
               </a>
-              <a
-                className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
-                href="#yetToBeDetermined"
-              >
-                
-              </a>
+              
             </div>
           </nav>
 
