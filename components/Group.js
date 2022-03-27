@@ -13,7 +13,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
         } fixed right-0 top-0 max-w-xs w-full h-full px-6 py-4 transition duration-300 transform overflow-y-auto bg-black border-l-2 border-gray-300 z-20`}
       >
         <div className="flex items-center justify-between">
-          <h3 className="text-2xl font-medium text-white">Your Group</h3>
+          <h3 className="text-2xl font-medium text-white">Characters in Adventuring Party</h3>
           <button className="text-red-600 focus:outline-none">
             <XIcon
               onClick={() => setIsGroupOpen(!isGroupOpen)}
