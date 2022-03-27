@@ -22,7 +22,7 @@ const CharacterDetails = () => {
     try {
       const user = await app.logIn(credentials);
       const oneCharacter = await user.functions.getOneCharacter(query.id);
-      setCharacter(() => oneCharacter());
+      setCharacter(() => oneCharacter);
     } catch (error) {
       console.error(error);
     }

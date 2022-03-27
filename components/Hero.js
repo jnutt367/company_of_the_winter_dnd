@@ -11,7 +11,7 @@ const Hero = () => {
           src="/images/company_winter.jpg"
           alt="Hero Image"
           layout="fill"
-          objectFit="cover"
+          objectFit="contain"
           className="absolute z-0"
         />
         <div className="bg-red-600 bg-opacity-40 flex items-center h-full absolute w-full z-10">

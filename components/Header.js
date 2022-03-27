@@ -18,7 +18,7 @@ const Header = () => {
         <div className="container mx-auto px-6 py-3">
           <div className="flex text-green items-center justify-between">
             <Link href="/">
-              <div className="font-serif w-full text-red-600 text-2xl font-semibold cursor-pointer">
+              <div className="font-sans w-full text-white text-2xl font-semibold cursor-pointer">
                 RPG Character Creator & Selector
               </div>
             </Link>
