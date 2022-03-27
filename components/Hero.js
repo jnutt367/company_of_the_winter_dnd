@@ -26,6 +26,14 @@ const Hero = () => {
                 <ArrowNarrowRightIcon className="w-5 h-5" />
               </button>
             </Link>
+
+            <Link href={`https://roll-a-rama-random-encounters.vercel.app/`}>
+              <button className="font-serif flex items-center mt-4 px-3 py-2 bg-black text-white text-sm uppercase font-medium rounded hover:bg-red-500 focus:outline-none focus:bg-green-500">
+                <span>Create a New Character</span>
+                <ArrowNarrowRightIcon className="w-5 h-5" />
+              </button>
+            </Link>
+
           </div>
         </div>
       </div>
