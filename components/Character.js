@@ -13,7 +13,7 @@ const Character = ({ character }) => {
               alt={character.character_name}
               layout="fill"
               objectFit="fill"
-              className="absolute z-0 rounded"
+              className="absolute z-0 border-4 border-zinc-800 rounded"
             />
             <button className="absolute z-10 p-2 rounded-full bg-black text-white mx-5 -mb-4 hover:bg-red-600 focus:outline-none focus:bg-indigo-500">
               <UserIcon className="w-5 h-5" />

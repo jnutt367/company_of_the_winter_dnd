@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="h-96 max-w-5xl mx-auto rounded-md overflow-hidden bg-cover bg-center relative">
         
          <Image
-          src="/images/company_winter.jpg"
+          src="/images/Dungeons-and-Dragons-Group.png"
           alt="Hero Image"
           layout="fill"
           objectFit="contain"
