@@ -8,7 +8,7 @@ const Category = ({ category, categoryCount }) => {
         <h3 className="mb-10 border-zinc-600 bg-red-500 font-sans p-4 text-black text-2xl font-medium block mt-16">
             {category}
         </h3>
-        <span className="font-mono p-8 text-md text-red-300 border-2 rounded-lg">{categoryCount}</span>
+        <span className="ml-20 font-mono p-8 text-md text-red-300 border-2 rounded-lg">{categoryCount}</span>
         </div>
         </>
         )
