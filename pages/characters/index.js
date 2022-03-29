@@ -36,7 +36,7 @@ export default function Home() {
      <Header />
      <Container>
       <Category
-        category="All Characters"
+        category="Existing Characters"
         categoryCount={`${characters.length} Characters`} />
         <Characters characters={characters} />
         <Pagination />

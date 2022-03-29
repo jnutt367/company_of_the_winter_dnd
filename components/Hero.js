@@ -8,13 +8,13 @@ const Hero = () => {
         <div className="h-96 max-w-5xl mx-auto rounded-md overflow-hidden bg-cover bg-center relative">
         
          <Image
-          src="/images/Dungeons-and-Dragons-Group.png"
+          src="/images/druid.png"
           alt="Hero Image"
           layout="fill"
           objectFit="fill"
           className="absolute z-0"
         />
-        <div className="bg-red-600 bg-opacity-40 flex items-center h-full absolute w-full z-10">
+        <div className="bg-red-600 bg-opacity-0 flex items-center h-full absolute w-full z-10">
           <div className="px-10 max-w-xl my-10">
             <h2 className="bg-slate-900 bg-opacity-30 font-serif text-2xl text-white font-semibold">Create New & Alter Existing Characters</h2>
             <p className="bg-red-900 bg-opacity-50 mt-2 text-white">

@@ -25,15 +25,15 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
         <div className="flex justify-between mt-6">
           <div className="flex">
             <Image
-              src="/images/monk_2"
-              height={130}
-              width={80}
+              src="/images/barbarian.jpeg"
+              height={170}
+              width={180}
               objectFit="fill"
               className="rounded"
               alt="DnD Character"
             />
             <div className="mx-3">
-              <h3 className="text-sm text-white">Jason Weilder</h3>
+              <h3 className="text-sm text-white">Brucey the "Mightiest"</h3>
               <div className="flex items-center mt-2">
                 <button className="text-white focus:outline-none focus:text-white">
                   <PlusCircleIcon className="h-5 w-5" />
@@ -45,20 +45,20 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               </div>
             </div>
           </div>
-          <span className="text-white">Lvl 10 Ranger</span>
+          <span className="text-white">Lvl 10 Barbarian</span>
         </div>
         <div className="flex justify-between mt-6">
           <div className="flex">
           <Image
-              src="/images/gis.jpg"
+              src="/images/monk_2.jpeg"
               height={200}
-              width={100}
+              width={150}
               objectFit="cover"
               className="rounded"
               alt="A D&D Character"
             />
             <div className="mx-3">
-              <h3 className="text-sm text-white">Gis FeatherToe</h3>
+              <h3 className="text-sm text-white">Bleather Tarbuckle</h3>
               <div className="flex items-center mt-2">
                 <button className="text-white focus:outline-none focus:text-indigo-600">
                   <PlusCircleIcon className="h-5 w-5" />
@@ -70,12 +70,12 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               </div>
             </div>
           </div>
-          <span className="text-white">Lvl 18 Thief</span>
+          <span className="text-white">Lvl 18 Monk</span>
         </div>
         <div className="flex justify-between mt-6">
           <div className="flex">
             <Image
-              src="/images/kindred.jpg"
+              src="/images/sorcerer.jpeg"
               height={200}
               width={100}
               objectFit="cover"
@@ -83,7 +83,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               alt="A D&D Character"
             />
             <div className="mx-3">
-              <h3 className="text-sm text-white">Kindred</h3>
+              <h3 className="text-sm text-white">Molechu</h3>
               <div className="flex items-center mt-2">
                 <button className="text-white focus:outline-none focus:text-indigo-600">
                   <PlusCircleIcon className="h-5 w-5" />
@@ -95,7 +95,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               </div>
             </div>
           </div>
-          <span className="text-white">Lvl 17 Figther/ Magic User</span>
+          <span className="text-white">Lvl 19 Magic User</span>
         </div>
         <div className="mt-8">
           <form className="flex items-center justify-center">
@@ -105,12 +105,12 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               placeholder="Character Name"
             />
             <button className="ml-3 flex items-center px-3 py-2 bg-red-600 text-white text-sm uppercase font-medium rounded hover:bg-gray-500 focus:outline-none focus:bg-green-500">
-              <span>Existing Characters</span>
+              <span>Characters</span>
             </button>
           </form>
         </div>
-        <a className="flex items-center justify-center mt-4 px-3 py-2 bg-red-600 text-white text-sm uppercase font-medium rounded hover:bg-gray-500 focus:outline-none focus:bg-green-500 cursor-pointer">
-          <span>All Characters</span>
+        <a href="https://roll-a-rama-random-encounters.vercel.app/" className="flex items-center justify-center mt-4 px-3 py-2 bg-red-600 text-white text-sm uppercase font-medium rounded hover:bg-gray-500 focus:outline-none focus:bg-green-500 cursor-pointer">
+          <span>Roll for Scores</span>
           <ArrowNarrowRightIcon className="w-5 h-5" />
         </a>
       </div>
