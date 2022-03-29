@@ -11,7 +11,7 @@ const Hero = () => {
           src="/images/Dungeons-and-Dragons-Group.png"
           alt="Hero Image"
           layout="fill"
-          objectFit="contain"
+          objectFit="fill"
           className="absolute z-0"
         />
         <div className="bg-red-600 bg-opacity-40 flex items-center h-full absolute w-full z-10">
