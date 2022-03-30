@@ -59,20 +59,20 @@ const Header = () => {
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
                 href="https://roll-a-rama-random-encounters.vercel.app/"
               >
-                Roll for Character scores
+                Roll scores
               </a>
              
               <a
                 className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
-                href="#weapons"
+                href="https://www.lightheartadventures.com/dungeon-master-tips/ten-random-dd-encounter-ideas/"
               >
-                Choose Weapons
+                Choose an Adventure
               </a>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
                 href="https://inkarnate.com/m/kO2Xr6--angelica-overview-landscape-map/"
               >
-                World Choices
+                Maps
               </a>
               
             </div>

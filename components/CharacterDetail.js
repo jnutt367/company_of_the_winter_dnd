@@ -10,7 +10,7 @@ const CharacterDetail = ({ character }) => {
           src={character.image}
           alt={character.name}
           layout="fill"
-          objectFit="contain"
+          objectFit="fill"
           className="absolute z-0 rounded"
         />
       </div>
@@ -26,7 +26,7 @@ const CharacterDetail = ({ character }) => {
         <span className="text-gray-500 mt-3">{character.player_name}</span>
         <div className="flex items-center mt-6">
           <button className="px-8 py-2 bg-red-600 text-white text-sm font-medium rounded hover:bg-red-500 focus:outline-none focus:bg-green-500">
-            Select Character
+            Choose Character
           </button>
         </div>
       </div>
