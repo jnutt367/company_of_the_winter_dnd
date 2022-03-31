@@ -53,20 +53,20 @@ const Header = () => {
                 <Link href="/">Home</Link>
               </div>
               <div className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0">
-                <Link href="/characters">Choose a Character</Link>
+                <Link href="/characters">Choose Character</Link>
               </div>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
                 href="https://roll-a-rama-random-encounters.vercel.app/"
               >
-                Roll scores
+                Create Character
               </a>
              
               <a
                 className="mt-3 text-green hover:underline sm:mx-3 sm:mt-0"
                 href="https://www.lightheartadventures.com/dungeon-master-tips/ten-random-dd-encounter-ideas/"
               >
-                Choose an Adventure
+                Choose Adventure
               </a>
               <a
                 className="mt-3 text-indigo hover:underline sm:mx-3 sm:mt-0"
