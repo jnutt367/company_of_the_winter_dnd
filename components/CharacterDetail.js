@@ -19,14 +19,14 @@ const CharacterDetail = ({ character }) => {
         <span className="text-gray-500 mt-3">{character.ability_scores}</span>
         <hr className="my-3" />
         <label className="text-black text-sm" htmlFor="weapons">
-            Weapons:  
+            Weapons /  
           </label>
         <span className="text-gray-500 mt-3">{character.weapons}</span>
         <hr className="my-3" />
         <span className="text-gray-500 mt-3">{character.player_name}</span>
         <div className="flex items-center mt-6">
           <button className="px-8 py-2 bg-red-600 text-white text-sm font-medium rounded hover:bg-red-500 focus:outline-none focus:bg-green-500">
-            Choose Character
+            Add Character to Party
           </button>
         </div>
       </div>
