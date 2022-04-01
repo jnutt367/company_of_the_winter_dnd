@@ -8,15 +8,15 @@ const Hero = () => {
         <div className="h-96 max-w-5xl mx-auto rounded-md overflow-hidden bg-cover bg-center relative">
         
          <Image
-          src="/images/sorcerer_2.jpeg"
+          src="/images/group_photo.jpeg"
           alt="Hero Image"
           layout="fill"
           objectFit="fill"
           className="absolute z-0"
         />
-        <div className="bg-green-900 bg-opacity-50 flex items-center h-full absolute w-full z-10">
+        <div className="bg-black bg-opacity-60 flex items-center h-full absolute w-full z-10">
           <div className="px-10 max-w-xl my-10">
-            <h2 className="bg-slate-900 bg-opacity-30 font-serif text-2xl text-white font-semibold">Create & Alter D&D Characters</h2>
+            <h2 className="bg-slate-900 bg-opacity-30 font-serif text-2xl text-grey-600 font-semibold">Create & Alter D&D Characters</h2>
             
             <Link href={`/characters`}>
               <button className="font-serif flex items-center mt-4 px-3 py-2 bg-black text-white text-sm uppercase font-medium rounded hover:bg-red-500 focus:outline-none focus:bg-green-500">

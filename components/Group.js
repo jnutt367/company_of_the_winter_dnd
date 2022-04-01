@@ -25,7 +25,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
         <div className="flex justify-between mt-6">
           <div className="flex">
             <Image
-              src="/images/barbarian.jpeg"
+              src="/images/brian_bard.jpg"
               height={170}
               width={180}
               objectFit="fill"
@@ -50,7 +50,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
         <div className="flex justify-between mt-6">
           <div className="flex">
           <Image
-              src="/images/monk_2.jpeg"
+              src="/images/brian_druid.jpg"
               height={200}
               width={150}
               objectFit="cover"
@@ -75,7 +75,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
         <div className="flex justify-between mt-6">
           <div className="flex">
             <Image
-              src="/images/sorcerer.jpeg"
+              src="/images/brian_thief.jpg"
               height={200}
               width={100}
               objectFit="cover"
