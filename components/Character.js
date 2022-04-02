@@ -8,7 +8,7 @@ const Character = ({ character }) => {
         <Link href={`/characters/${character._id}`}>
         <div className="mt-0 border-8 border-zinc-800 w-full max-w-sm p-4 mx-auto rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition">
           <div className="flex items-end justify-end h-screen w-full bg-cover relative">
-          <p>Hello there</p>
+          
           <hr></hr>
             <Image
               className="z-0 border-8 border-zinc-800 rounded"
