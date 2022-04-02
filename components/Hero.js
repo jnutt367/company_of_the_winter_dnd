@@ -14,7 +14,7 @@ const Hero = () => {
           objectFit="fill"
           className="absolute z-0"
         />
-        <div className="bg-black bg-opacity-60 flex items-center h-full absolute w-full z-10">
+        <div className="bg-black bg-opacity-30 flex items-center h-full absolute w-full z-10">
           <div className="px-10 max-w-xl my-10">
             <h2 className="bg-slate-900 bg-opacity-30 font-serif text-2xl text-grey-600 font-semibold">Create & Alter D&D Characters</h2>
             
