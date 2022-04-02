@@ -10,6 +10,7 @@ const CharacterDetail = ({ character }) => {
           src={character.image}
           alt={character.name}
           layout="fill"
+          max-width="200px"
           objectFit="fill"
           className="absolute z-0 rounded"
         />
