@@ -15,8 +15,8 @@ const Character = ({ character }) => {
               src={character.image}
               alt={character.character_name}
               layout="fixed"
-              width="500px"
-              height="300px"
+              width="400px"
+              height="400px"
               objectFit="cover"
             />
             <button className="absolute z-10 p-2 rounded-full bg-black text-white mx-5 mb-4 hover:bg-green-600 focus:outline-none focus:bg-indigo-500">
