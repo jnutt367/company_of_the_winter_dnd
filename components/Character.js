@@ -23,7 +23,7 @@ const Character = ({ character }) => {
               <UserIcon className="w-5 h-5" />
             </button>
           </div>
-          <div className="px-5 bg-white text-black py-10">
+          <div className="px-5 bg-white text-black py-10 border-4 border-green-400">
             <h3 className="bg-opacity-40 font-serif uppercase">{character.character_name}</h3>
             <h3 className="bg-opacity-90 font-mono uppercase">{character.category}</h3>
             <span className="bg-opacity-90 font-sans mt-2">{character.attributes}</span>

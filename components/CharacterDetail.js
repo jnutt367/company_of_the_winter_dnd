@@ -32,10 +32,22 @@ const CharacterDetail = ({ character }) => {
             Attributes : 
           </label>
         <span className="text-gray-500 mt-3">{character.attributes}</span>
+
+        <hr className="my-3" />
+          <label className="text-black text-sm" htmlFor="attributess">
+            Quick Build : 
+          </label>
+        <span className="text-gray-500 mt-3">{character.quick_build}</span>
+        <hr className="my-3" />
+        <label className="text-black text-sm" htmlFor="attributess">
+            Class Features : 
+          </label>
+        <span className="text-gray-500 mt-3">{character.features}</span>
         <div className="flex items-center mt-6">
           <button className="px-8 py-2 bg-green-800 text-white text-sm font-medium rounded hover:bg-green-600 focus:outline-none focus:bg-red-500">
             Add to Party
           </button>
+         
         </div>
       </div>
     </div>
