@@ -29,14 +29,14 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 py-2">
       <Head>
-        <title>RPG Character Creator/Selector</title>
+        <title>RPG Character Selector</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className="bg-black text-white w-full min-h-screen">
      <Header />
      <Container>
       <Category
-        category="Existing Characters"
+        category="Characters"
         categoryCount={`${characters.length} Characters`} />
         <Characters characters={characters} />
         <Pagination />

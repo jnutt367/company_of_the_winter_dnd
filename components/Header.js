@@ -19,11 +19,11 @@ const Header = () => {
           <div className="flex text-green items-center justify-between">
             <Link href="/">
               <div className="font-sans w-full text-white text-2xl font-semibold cursor-pointer">
-                D&D Character Creator
+               D&D Character Selector
               </div>
             </Link>
             <div className="flex items-center justify-end w-full">
-              <button className="text-red-600 focus:outline-none mx-4 sm:mx-0">
+              <button className="text-green-600 hover: text-green-300 focus:outline-none mx-4 sm:mx-0">
                 <UserGroupIcon
                   onClick={() => setIsGroupOpen(!isGroupOpen)}
                   className="h-5 w-5"
@@ -34,7 +34,7 @@ const Header = () => {
                 <button
                   onClick={() => setIsMenuOpen(!isMenuOpen)}
                   type="button"
-                  className="text-aqua hover:text-red-500 focus:outline-none focus:text-gray-500"
+                  className="text-aqua hover:text-green-500 focus:outline-none focus:text-gray-500"
                   aria-label="toggle menu"
                 >
                   <MenuIcon className="h-5 w-5" />
