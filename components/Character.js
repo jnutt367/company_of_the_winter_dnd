@@ -6,8 +6,8 @@ import Category from './Category';
 const Character = ({ character }) => {
     return (
         <Link href={`/characters/${character._id}`}>
-        <div className="border-8 border-zinc-800 w-full max-w-lg p-4 mx-auto rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition">
-          <div className="flex items-end justify-end h-screen w-full bg-cover relative">
+        <div className="w-full max-w-lg p-4 rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition">
+          <div className="flex items-end justify-end h-screen w-full bg-contain relative">
           
           
             <Image
@@ -15,11 +15,11 @@ const Character = ({ character }) => {
               src={character.image}
               alt={character.character_name}
               layout="fixed"
-              width="500px"
-              height="600px"
+              width="400px"
+              height="300px"
               objectFit="fill"
             />
-            <button className="absolute z-10 p-2 rounded-full bg-black text-white mx-5 -mb-4 hover:bg-green-600 focus:outline-none focus:bg-indigo-500">
+            <button className="absolute z-10 p-2 rounded-full bg-black text-white mx-5 mb-4 hover:bg-green-600 focus:outline-none focus:bg-indigo-500">
               <UserIcon className="w-5 h-5" />
             </button>
           </div>

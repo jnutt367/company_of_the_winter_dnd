@@ -19,7 +19,7 @@ const Header = () => {
           <div className="flex text-green items-center justify-between">
             <Link href="/">
               <div className="font-sans w-full text-white text-2xl font-semibold cursor-pointer">
-               D&D Character Selector
+               D&D Character Examples
               </div>
             </Link>
             <div className="flex items-center justify-end w-full">
