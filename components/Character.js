@@ -14,10 +14,11 @@ const Character = ({ character }) => {
               className="z-0 border-4 py-10"
               src={character.image}
               alt={character.character_name}
-              layout="fixed"
+              layout="fill"
               width="400px"
               height="400px"
-              objectFit="cover"
+              objectFit="fill"
+              objectPosition="50% 50%"
             />
             <button className="absolute z-10 p-2 rounded-full bg-black text-white mx-5 mb-4 hover:bg-green-600 focus:outline-none focus:bg-indigo-500">
               <UserIcon className="w-5 h-5" />
