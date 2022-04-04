@@ -14,12 +14,14 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isGroupOpen, setIsGroupOpen] = useState(false);
     const [searchTerm, setSearchTerm] = useState("");
+  
+
 
     const handleSubmit = e => {
       e.preventDefault();
 
       router.push({
-        pathname: `search/${searchTerm}`,
+        pathname: `/search/${searchTerm}`,
       });
       setSearchTerm("");
     };
@@ -29,7 +31,7 @@ const Header = () => {
        <header>
         <div className="container mx-auto px-6 py-3">
           <div className="flex text-green items-center justify-between">
-            <Link href="/">
+            <Link href="">
               <div className="font-sans w-full text-white text-2xl font-semibold cursor-pointer">
                D&D Character Examples
               </div>
@@ -96,7 +98,7 @@ const Header = () => {
             </span>
             <form onSubmit={handleSubmit}>
             <input
-              className="w-full border rounded-md pl-10 pr-4 py-2 text-black focus:border-indigo-500 focus:outline-none focus:shadow-outline"
+              className="w-full border rounded-md pl-10 pr-4 py-4 text-green-500 focus:border-green-500 focus:outline-green-500 focus:shadow-outline"
               type="text"
               placeholder="Search"
               onChange={(e) => setSearchTerm(e.target.value)}      
