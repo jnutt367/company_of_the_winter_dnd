@@ -6,7 +6,7 @@ import Category from './Category';
 const Character = ({ character }) => {
     return (
         <Link href={`/characters/${character._id}`}>
-        <div className="cursor-pointer hover:shadow-2xl border-rounded transition">
+        <div className="cursor-pointer hover:shadow-2xl border-8 border-green-500 rounded transition">
           <div className="flex items-end justify-end h-screen w-full bg-contain relative">
           
           
@@ -15,10 +15,8 @@ const Character = ({ character }) => {
               src={character.image}
               alt={character.character_name}
               layout="fill"
-              width="400px"
-              height="400px"
               objectFit="fill"
-              objectPosition="50% 50%"
+              objectPosition=""
             />
             <button className="absolute z-10 p-2 rounded-full bg-black text-white mx-5 mb-4 hover:bg-green-600 focus:outline-none focus:bg-indigo-500">
               <UserIcon className="w-5 h-5" />
