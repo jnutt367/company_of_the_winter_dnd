@@ -6,18 +6,18 @@ import Category from './Category';
 const Character = ({ character }) => {
     return (
         <Link href={`/characters/${character._id}`}>
-        <div className="cursor-pointer hover:shadow-2xl border-8 border-green-500 rounded transition">
-          <div className="flex items-end justify-end h-screen w-full bg-contain relative">
+        <div className="cursor-pointer hover:shadow-2xl border-8 border-green-600 rounded transition">
+        <div className="w-full bg-green-900 border-8 border-green-600 h-96 lg:h-96 relative">
+        <Image
+          src={character.image}
+          alt={character.name}
+          layout="fill"
+          objectFit="fill"
+          className="absolute z-0 rounded"
           
-          
-            <Image
-              className="z-0 border-4 py-10"
-              src={character.image}
-              alt={character.character_name}
-              layout="fill"
-              objectFit="fill"
-              objectPosition=""
-            />
+        />
+         
+      
             <button className="absolute z-10 p-2 rounded-full bg-black text-white mx-5 mb-4 hover:bg-green-600 focus:outline-none focus:bg-indigo-500">
               <UserIcon className="w-5 h-5" />
             </button>
@@ -28,6 +28,7 @@ const Character = ({ character }) => {
             <span className="bg-opacity-90 font-sans mt-2">{character.attributes}</span>
           </div>
         </div>
+      
       </Link>
     );
   };

@@ -6,12 +6,12 @@ const CharacterDetail = ({ character }) => {
   return (
     <div className="md:flex md:items-center bg-white">
     
-      <div className="w-full bg-white border-8 border-zinc-600 h-64 md:w-1/2 lg:h-96 relative">
+      <div className="w-full bg-green-900 border-8 border-green-600 h-96 md:w-1/2 lg:h-96 relative">
         <Image
           src={character.image}
           alt={character.name}
           layout="fill"
-          objectFit="cover"
+          objectFit="contain"
           className="absolute z-0 rounded"
           
         />

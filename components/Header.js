@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import {useRouter} from 'next/router';
+import * as Realm from "realm-web";
 import {
     UserGroupIcon,
     MenuIcon,
@@ -14,16 +15,44 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isGroupOpen, setIsGroupOpen] = useState(false);
     const [searchTerm, setSearchTerm] = useState("");
+    const [autoComplete, setAutoComplete] = useState([]);
+
+    useEffect(async () => {
+      if (searchTerm.length) {
+        // add your Realm App Id to the .env.local file
+        const REALM_APP_ID = "characters-eymql";
+      const app = new Realm.App({ id: REALM_APP_ID });
+      const credentials = Realm.Credentials.anonymous();
+        try {
+          const user = await app.logIn(credentials);
+          const searchAutoComplete = await user.functions.searchAutoComplete(
+            searchTerm
+          );
+          setAutoComplete(() => searchAutoComplete);
+        } catch (error) {
+          console.error(error);
+        }
+      } else {
+        setAutoComplete([]);
+      }
+    }, [searchTerm]);
   
 
 
-    const handleSubmit = e => {
+    const handleSubmit = (e) => {
       e.preventDefault();
-
+  
+      setSearchTerm("");
       router.push({
         pathname: `/search/${searchTerm}`,
       });
+    };
+  
+    const handleSelect = (id) => {
       setSearchTerm("");
+      router.push({
+        pathname: `/products/${id}`,
+      });
     };
 
     return (
