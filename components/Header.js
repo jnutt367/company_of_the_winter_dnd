@@ -129,7 +129,7 @@ const Header = () => {
             <input
               className="w-full border rounded-md pl-10 pr-4 py-4 text-green-500 focus:border-green-500 focus:outline-green-500 focus:shadow-outline"
               type="text"
-              placeholder="Search"
+              placeholder="Search by Character's Class"
               onChange={(e) => setSearchTerm(e.target.value)}      
               value={searchTerm}       
             />
