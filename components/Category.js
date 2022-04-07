@@ -8,9 +8,9 @@ const Category = ({ category, categoryCount }) => {
     return (
         <>
         <div className="bg w-auto font-mono rounded-lg">
-        <Link href={`https://www.lightheartadventures.com/dungeon-master-tips/ten-random-dd-encounter-ideas/`}>
-              <button className="font-mono flex items-center mt-4 px-3 py-2 bg-green-500 text-white text-sm uppercase font-medium rounded hover:bg-green-800 focus:outline-none focus:bg-green-500">
-                <span>Explore Adventures</span>
+        <Link href={`https://roll-a-rama-random-encounters.vercel.app/`}>
+              <button className="font-mono flex items-center mt-4 px-3 py-2 bg-black text-white text-sm uppercase  rounded hover:bg-green-800 focus:outline-none focus:bg-red-500">
+                <span>Dice Roller</span>
                 <ArrowNarrowRightIcon className="w-5 h-5" />
               </button>
             </Link>

@@ -16,7 +16,7 @@ const Hero = () => {
         />
         <div className="bg-black bg-opacity-30 flex items-center h-full absolute w-full z-10">
           <div className="px-10 max-w-xl my-10">
-            <h2 className="bg-slate-900 bg-opacity-30 font-mono text-2xl text-grey-600 font-semibold">Choose a Character</h2>
+            <h2 className="bg-slate-900 bg-opacity-30 font-mono text-2xl text-grey-600 font-extrabold">Choose 3 Characters</h2>
             
             <Link href={`/characters`}>
               <button className="font-mono flex items-center mt-4 px-3 py-2 bg-black text-white text-sm uppercase font-medium rounded hover:bg-green-800 focus:outline-none focus:bg-red-500">
@@ -24,13 +24,13 @@ const Hero = () => {
                 <ArrowNarrowRightIcon className="w-5 h-5" />
               </button>
             </Link>
-
-            <Link href={`https://roll-a-rama-random-encounters.vercel.app/`}>
-              <button className="font-serif flex items-center mt-4 px-3 py-2 bg-black text-white text-sm uppercase font-medium rounded hover:bg-green-800 focus:outline-none focus:bg-red-500">
-                <span>Dice Roller</span>
+            <Link href={`https://www.lightheartadventures.com/dungeon-master-tips/ten-random-dd-encounter-ideas/`}>
+              <button className="font-mono flex items-center mt-4 px-3 py-2 bg-green-500 text-white text-sm uppercase font-medium rounded hover:bg-green-800 focus:outline-none focus:bg-green-500">
+                <span>Go on an Encounter</span>
                 <ArrowNarrowRightIcon className="w-5 h-5" />
               </button>
             </Link>
+            
 
           </div>
         </div>
