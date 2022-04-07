@@ -13,7 +13,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
         } fixed right-0 top-0 max-w-xs w-full h-full px-6 py-4 transition duration-300 transform overflow-y-auto bg-black border-l-2 border-gray-300 z-20`}
       >
         <div className="flex items-center justify-between">
-          <h3 className="text-2xl font-medium text-white">Characters in Adventuring Party</h3>
+          <h3 className="text-2xl font-mono text-white">Characters in Adventuring Party</h3>
           <button className="text-green-600 focus:outline-none">
             <XIcon
               onClick={() => setIsGroupOpen(!isGroupOpen)}
@@ -32,8 +32,8 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               className="rounded"
               alt="A D&D Character"
             />
-            <div className="mx-3">
-              <h3 className="text-sm text-white">Gis FeatherToe</h3>
+            <div className="mx-3 font-mono">
+              <h3 className="text-sm text-white">Bard</h3>
               <div className="flex items-center mt-2">
                 <button className="text-white focus:outline-none focus:text-green-600">
                   <PlusCircleIcon className="h-5 w-5" />
@@ -45,7 +45,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               </div>
             </div>
           </div>
-          <span className="text-white">Lvl: 11 Bard</span>
+          <span className="text-white">Lvl: 1 Bard</span>
         </div>
         <div className="flex justify-between mt-6">
           <div className="flex">
@@ -58,7 +58,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               alt="A D&D Character"
             />
             <div className="mx-3">
-              <h3 className="text-sm text-white">Glenron</h3>
+              <h3 className="text-sm text-white">Druid</h3>
               <div className="flex items-center mt-2">
                 <button className="text-white focus:outline-none focus:text-green-600">
                   <PlusCircleIcon className="h-5 w-5" />
@@ -70,7 +70,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               </div>
             </div>
           </div>
-          <span className="text-white">Lvl: 12 Druid</span>
+          <span className="text-white">Lvl: 1 Druid</span>
         </div>
         <div className="flex justify-between mt-6">
           <div className="flex">
@@ -83,7 +83,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               alt="A D&D Character"
             />
             <div className="mx-3">
-              <h3 className="text-sm text-white">Tremblaine</h3>
+              <h3 className="text-sm text-white">Rogue</h3>
               <div className="flex items-center mt-2">
                 <button className="text-white focus:outline-none focus:text-green-600">
                   <PlusCircleIcon className="h-5 w-5" />
@@ -95,7 +95,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               </div>
             </div>
           </div>
-          <span className="text-white">Lvl: 10 Rogue</span>
+          <span className="text-white">Lvl: 1 Rogue</span>
         </div>
         <div className="mt-8">
           <form className="flex items-center justify-center">

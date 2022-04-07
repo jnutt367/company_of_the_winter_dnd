@@ -17,8 +17,8 @@ const CharacterDetail = ({ character }) => {
         />
          
       </div>
-      <div className="w-full bg-white max-w-lg px-4 mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
-      <h3 className="text-black uppercase text-lg">{character.category}</h3>
+      <div className="w-full font-mono bg-green-100 max-w-lg px-4 mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
+      <h3 className="text-black font-mono uppercase text-lg">{character.category}</h3>
         <h3 className="text-gray-700 uppercase text-lg">{character.character_name}</h3>
         <hr className="my-3" />
         <label className="text-black text-sm" htmlFor="weapons">

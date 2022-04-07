@@ -58,10 +58,10 @@ const Header = () => {
     return (
         <>
        <header>
-        <div className="container mx-auto px-6 py-3">
+        <div className="container font-mono mx-auto px-6 py-3">
           <div className="flex text-green items-center justify-between">
             <Link href="">
-              <div className="font-sans w-full text-white text-2xl font-semibold cursor-pointer">
+              <div className="font-mono w-full text-green-300 text-2xl font-semibold cursor-pointer">
                D&D Character Examples
               </div>
             </Link>
