@@ -29,7 +29,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               height={230}
               width={200}
               objectFit="cover"
-              className="rounded"
+              className="rounded-b-full rounded-t-full"
               alt="A D&D Character"
             />
             <div className="mx-3 font-mono">
@@ -54,7 +54,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               height={240}
               width={200}
               objectFit="cover"
-              className="rounded"
+              className="rounded-b-full rounded-t-full"
               alt="A D&D Character"
             />
             <div className="mx-3">
@@ -79,7 +79,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               height={240}
               width={200}
               objectFit="cover"
-              className="rounded"
+              className="rounded-b-full rounded-t-full"
               alt="A D&D Character"
             />
             <div className="mx-3">
@@ -100,16 +100,17 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
         <div className="mt-8">
           <form className="flex items-center justify-center">
             <input
-              className="form-input w-48"
+              className="ml-6 form-input w-48"
               type="text"
-              placeholder="Character Name"
+              placeholder="Choose Character"
             />
-            <button className="ml-3 flex items-center px-3 py-2 bg-green-600 text-white text-sm uppercase font-medium rounded hover:bg-red-500 focus:outline-none focus:bg-green-500">
-              <span>Roll for Encounter</span>
+            <button className="ml-2 flex items-center mr-4 px-3 py-2 bg-green-600 text-white text-sm uppercase font-medium rounded hover:bg-green-900 focus:outline-none focus:bg-green-900">
+              <span>Encounters</span>
+              <ArrowNarrowRightIcon className="w-5 h-5" />
             </button>
           </form>
         </div>
-        <a href="https://roll-a-rama-random-encounters.vercel.app/" className="flex items-center justify-center mt-4 px-3 py-2 bg-green-600 text-white text-sm uppercase font-medium rounded hover:bg-red-500 focus:outline-none focus:bg-green-500 cursor-pointer">
+        <a href="https://roll-a-rama-random-encounters.vercel.app/" className="flex items-center justify-center mt-4 px-3 py-2 bg-green-600 text-white text-sm uppercase font-medium rounded hover:bg-green-900 focus:outline-none focus:bg-green-500 cursor-pointer">
           <span>Roll for Scores</span>
           <ArrowNarrowRightIcon className="w-5 h-5" />
         </a>

@@ -5,7 +5,7 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
 const Hero = () => {
     return (
       
-        <div className="h-96 font-mono border-8 border-silver-600 max-w-5xl mx-auto rounded-md overflow-hidden bg-cover bg-center relative">
+        <div className="h-96 font-mono border-8 border-silver-600 max-w-5xl mx-auto rounded-b-full rounded-t-full overflow-hidden bg-cover bg-center relative">
         
          <Image
           src="/images/group_photo.jpeg"

@@ -6,14 +6,14 @@ import Category from './Category';
 const Character = ({ character }) => {
     return (
         <Link href={`/characters/${character._id}`}>
-        <div className="cursor-pointer bg-green-900 hover:shadow-2xl border-8 border-silver-600 rounded transition">
-        <div className="w-full bg-green-900 border-8 border-green-600 h-96 lg:h-96 relative">
-        <Image
+        <div className="cursor-pointer bg-green-900 hover:shadow-2xl border-8 border-silver-600  transition">
+        <div className="w-full bg-green-900 border-8 border-green-600 h-96 lg:h-96  relative">
+        <Image 
           src={character.image}
           alt={character.name}
           layout="fill"
           objectFit="fill"
-          className="absolute z-0 rounded"
+          className="absolute rounded-t-full z-0 rounded"
           
         />
          
@@ -24,9 +24,9 @@ const Character = ({ character }) => {
           </div>
         
           <div className="px-5 bg-green-900 text-gray-300 py-10 border-4 border-silver-600">
-          <h1 className="bg-opacity-90 font-mono uppercase">{character.character_name}</h1>
-            <h3 className="bg-opacity-90 font-mono uppercase">{character.category}</h3>
-            <span className="bg-opacity-90 font-mono mt-2">{character.attributes}</span>
+          <h1 className="bg-opacity-0 font-mono uppercase">{character.character_name}</h1>
+            <h3 className="bg-opacity-0 font-mono uppercase">{character.category}</h3>
+            <span className="bg-opacity-0 font-mono mt-2">{character.attributes}</span>
             <hr className="my-3" />
           <label className="text-gray-400 text-sm" htmlFor="attributess">
             Quick Build : 

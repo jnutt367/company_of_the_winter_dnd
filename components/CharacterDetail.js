@@ -12,7 +12,7 @@ const CharacterDetail = ({ character }) => {
           alt={character.name}
           layout="fill"
           objectFit="contain"
-          className="absolute z-0 rounded"
+          className="absolute z-0 rounded-t-full"
           
         />
          
@@ -43,7 +43,7 @@ const CharacterDetail = ({ character }) => {
         <span className="text-gray-500 mt-3">{character.quick_build}</span>
         <hr className="my-3" />
         <div className="flex items-center mt-6">
-          <button className="px-8 py-2 bg-green-800 text-white text-sm font-medium rounded hover:bg-green-600 focus:outline-none focus:bg-red-500">
+          <button className="px-8 py-2 bg-green-800 text-white text-sm font-medium rounded hover:bg-green-600 focus:outline-none focus:bg-green-900">
             Add to Party
           </button>
          
