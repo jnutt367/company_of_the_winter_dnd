@@ -4,7 +4,7 @@ import { PlusCircleIcon, MinusCircleIcon } from "@heroicons/react/outline";
 
 const CharacterDetail = ({ character }) => {
   return (
-    <div className="md:flex md:items-center bg-white">
+    <div className="md:flex md:items-center bg-green-100">
     
       <div className="w-full bg-green-900 border-8 border-green-600 h-96 md:w-1/2 lg:h-96 relative">
         <Image

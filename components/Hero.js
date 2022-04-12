@@ -5,7 +5,7 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
 const Hero = () => {
     return (
       
-        <div className="h-96 font-mono max-w-5xl mx-auto rounded-md overflow-hidden bg-cover bg-center relative">
+        <div className="h-96 font-mono border-8 border-silver-600 max-w-5xl mx-auto rounded-md overflow-hidden bg-cover bg-center relative">
         
          <Image
           src="/images/group_photo.jpeg"
@@ -14,7 +14,7 @@ const Hero = () => {
           objectFit="fill"
           className="absolute z-0"
         />
-        <div className="bg-black bg-opacity-30 flex items-center h-full absolute w-full z-10">
+        <div className="bg-black bg-opacity-10 flex items-center h-full absolute w-full z-10">
           <div className="px-10 max-w-xl my-10">
             <h2 className="bg-slate-900 bg-opacity-30 font-mono text-2xl text-grey-600 font-extrabold">Choose 3 Characters</h2>
             

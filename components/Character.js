@@ -6,7 +6,7 @@ import Category from './Category';
 const Character = ({ character }) => {
     return (
         <Link href={`/characters/${character._id}`}>
-        <div className="cursor-pointer hover:shadow-2xl border-8 border-green-600 rounded transition">
+        <div className="cursor-pointer hover:shadow-2xl border-8 border-silver-600 rounded transition">
         <div className="w-full bg-green-900 border-8 border-green-600 h-96 lg:h-96 relative">
         <Image
           src={character.image}
@@ -22,10 +22,15 @@ const Character = ({ character }) => {
               <UserIcon className="w-5 h-5" />
             </button>
           </div>
-          <div className="px-5 bg-white text-black py-10 border-4 border-green-600">
-            <h3 className="bg-opacity-40 font-mono uppercase">{character.character_name}</h3>
+          <div className="px-5 bg-white text-black py-10 border-4 border-silver-600">
+           
             <h3 className="bg-opacity-90 font-mono uppercase">{character.category}</h3>
             <span className="bg-opacity-90 font-mono mt-2">{character.attributes}</span>
+            <hr className="my-3" />
+          <label className="text-black text-sm" htmlFor="attributess">
+            Quick Build : 
+          </label>
+        <span className="text-gray-500 mt-3">{character.quick_build}</span>
           </div>
         </div>
       
