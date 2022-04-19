@@ -1,0 +1,1 @@
+This will hold the data models in json object format fro NPCs and Monsters and also encounters.

@@ -7,7 +7,7 @@ const Character = ({ character }) => {
     return (
         <Link href={`/characters/${character._id}`}>
         <div className="cursor-pointer bg-green-900 hover:shadow-2xl border-8 border-silver-600  transition">
-        <div className="w-full bg-green-900 border-8 border-green-600 h-96 lg:h-96  relative">
+        <div className="w-full bg-green-700 border-8 border-green-900 h-96 lg:h-96  relative">
         <Image 
           src={character.image}
           alt={character.name}
