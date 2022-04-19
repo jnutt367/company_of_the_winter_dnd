@@ -29,7 +29,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               height={230}
               width={200}
               objectFit="cover"
-              className="rounded-b-full rounded-t-full"
+              className="rounded-b-full"
               alt="A D&D Character"
             />
             <div className="mx-3 font-mono">
@@ -54,7 +54,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               height={240}
               width={200}
               objectFit="cover"
-              className="rounded-b-full rounded-t-full"
+              className="rounded-b-full"
               alt="A D&D Character"
             />
             <div className="mx-3">
@@ -79,7 +79,7 @@ const Group = ({ isGroupOpen, setIsGroupOpen }) => {
               height={240}
               width={200}
               objectFit="cover"
-              className="rounded-b-full rounded-t-full"
+              className="rounded-b-full"
               alt="A D&D Character"
             />
             <div className="mx-3">
