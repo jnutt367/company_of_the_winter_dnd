@@ -5,10 +5,10 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
 const Hero = () => {
     return (
       
-        <div className="h-96 font-sans border-0 border-black max-w-2xl mx-auto overflow-hidden rounded-b-full bg-cover bg-center relative">
+        <div className="h-96 font-sans border-4 border-green-100 max-w-2xl mx-auto overflow-hidden  rounded-full bg-cover bg-center relative">
         
          <Image
-          src="/images/group_photo.jpeg"
+          src="/images/brian_bg_giant_wizard.jpeg"
           alt="Hero Image"
           layout="fill"
           objectFit="fill"
