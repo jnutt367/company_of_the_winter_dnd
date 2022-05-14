@@ -65,6 +65,11 @@ const Header = () => {
                D&D Character Examples
               </div>
             </Link>
+            <Link href="">
+              <div className="font-mono w-full text-white ml-10 text-xs font-semibold cursor-pointer">
+              Instructions
+              </div>
+            </Link>
             <div className="flex items-center justify-end w-full">
               <button className="text-green-600 hover: text-green-300 focus:outline-none mx-4 sm:mx-0">
                 <UserGroupIcon
