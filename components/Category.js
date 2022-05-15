@@ -8,7 +8,7 @@ const Category = ({ category, categoryCount }) => {
     return (
         <>
         <div className="bg w-auto font-mono rounded-lg">
-        <Link href={`https://roll-a-rama-random-encounters.vercel.app/`}>
+        <Link href={`https://rollwithme.xyz/r/cup-found-actual-country-sitting-then`}>
               <button className="font-mono flex items-center mt-4 px-3 py-2 bg-black text-white text-sm uppercase  rounded hover:bg-green-800 focus:outline-none focus:bg-red-500">
                 <span>Dice Roller</span>
                 <ArrowNarrowRightIcon className="w-5 h-5" />
